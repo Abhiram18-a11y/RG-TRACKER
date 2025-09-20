@@ -1,0 +1,61 @@
+.leaders {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9fafb;
+}
+
+.leaders h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.leaders p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+/* 🔥 This makes the cards horizontal */
+.leader-cards {
+  display: flex;
+  justify-content: center;   /* center them */
+  align-items: stretch;
+  gap: 30px;                 /* spacing between cards */
+  flex-wrap: nowrap;         /* ❌ no wrapping */
+}
+
+.leader-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.leader-card:hover {
+  transform: translateY(-5px);
+}
+
+.leader-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.leader-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 8px;
+}
+
+.leader-card p {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
